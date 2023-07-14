@@ -1,7 +1,7 @@
 # IMC_Prosp_2023_Soup04
 The algorithm trading bot for IMC Prosperity 2023, 
 
-**Final Ranking: 60th over 7000+ teams**
+**Final Ranking: 60th over 8000+ teams**
 
 # Team: Soup04
 
