@@ -15,7 +15,7 @@ In this game, it's better to think about whether you want to be a maker or a tak
 
 In the first round, there are two categories that can be traded: **pearls** and **bananas**
 
-for pearls, the price doesn't change much, fluctuates around 10000
+**for pearls**, the price doesn't change much, fluctuates around 10000
 
 so it's easy to think that we can give a buy order at 9999 and a sell order at 10001, with max sizes we can trade (20)
 
@@ -24,9 +24,9 @@ however, by doing the EDA about the spread of the order book, we can find that t
 thus, to get that money, we can have 2 types of execution strategy
 
 keep bid less than and ask over 10000, when there is a buy order over 10000, trade with it, and vice versa; but when there is not, place order at bid+1 / ask-1
-<br>
 
-for bananas, its price fluctuates more, but our max position is still 20, and the banana's price is not a big number (little profit for the taker)
+
+<br>**for bananas**, its price fluctuates more, but our max position is still 20, and the banana's price is not a big number (little profit for the taker)
 
 thus, just think how we can get a fair price for banana
 
@@ -52,7 +52,7 @@ so the percentage needed for Coconuts is edge/15, and to **hedge** the risk, the
 
 after this round, my rank jumped to 465<br>
 
-**Round 3**<br>
+<br>**Round 3**<br>
 
 new round, **Mayberries** and **Diving Gear** were involved
 
@@ -74,7 +74,7 @@ then, by plotting the actual change, I decided to set (+/-5) as a signal, others
 
 rank -> 111<br>
 
-**Round 4**<br>
+<br>**Round 4**<br>
 New products: Picnic basket (PB) and its three original product DIP, Baguette(B), Ukulele(U)
 
 they have info that PB = 4 DIP + 2B + U (said by rules)
@@ -85,7 +85,7 @@ to use -edge/edge_max to get PB percentage, and edge/edge_max as other percentag
 
 But in the end, the lambda problem happened on IMC's server, my DG strategy was based on creating a global variable as the sign, but it was all cleared in the lambda problem, so my rank just jumped to 77<br>
 
-**Round 5**<br>
+<br>**Round 5**<br>
 what's new: we can get some trader's trading information! that means we can totally do mirror trading!
 
 by analyzing their win rate, I found trader "**Oliva**" has a nearly 100% win rate
@@ -96,7 +96,7 @@ but my strategy for bananas and Mayberries has more profits, so I set Ukulele's 
 
 rank -> 60<br>
 
-**After all**<br>
+<br>**After all**<br>
 This is my first time participating in the algorithm trading competition, though challenging, I found it really fun to discover the pattern behind each product through data analysis
 
 my final was coming at that time, so I didn't have much time for other analysis, and still busy after the break, so sharing these after 4 months
