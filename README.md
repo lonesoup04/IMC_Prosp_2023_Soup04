@@ -11,7 +11,7 @@ Pu Su (LinkedIn: https://www.linkedin.com/in/pu-s-16b3b9219/)
 
 In this game, it's better to think about whether you want to be a maker or a taker in the market: your strategy and the market nature will decide your profits
 <br>
-**Round 1**<br>
+<br>**Round 1**<br>
 
 In the first round, there are two categories that can be traded: **pearls** and **bananas**
 
@@ -97,6 +97,7 @@ but my strategy for bananas and Mayberries has more profits, so I set Ukulele's 
 rank -> 60<br>
 
 <br>**After all**<br>
+
 This is my first time participating in the algorithm trading competition, though challenging, I found it really fun to discover the pattern behind each product through data analysis
 
 my final was coming at that time, so I didn't have much time for other analysis, and still busy after the break, so sharing these after 4 months
